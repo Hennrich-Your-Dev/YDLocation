@@ -1,0 +1,6 @@
+framework module Pods_YDLocationModule {
+  umbrella header "Pods-YDLocationModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
