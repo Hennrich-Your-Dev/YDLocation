@@ -5,11 +5,11 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://yourdev.com.br"
   spec.license      = "MIT"
-  spec.author             = { "Douglas Hennrich" => "douglashennrich@yourdev.com.br" }
+  spec.author       = { "Douglas Hennrich" => "douglashennrich@yourdev.com.br" }
 
   spec.platform     = :ios, "11.0"
-  spec.source           = { :git => "git@github.com-yourdev:Hennrich-Your-Dev/YourDev-Pods.git", :tag => spec.version }
-  spec.source_files     = "YDLocationModule/**/*.{h,m,swift}"
-  spec.public_header_files = "YDLocationModule/**/*.h"
+  spec.source           = { :git => "https://github.com/Hennrich-Your-Dev/YDLocation.git", :tag => spec.version }
+  spec.source_files     = "YDLocationModule/**/*.swift"
+  spec.public_header_files = "YDLocationModule/*.h"
   spec.swift_version    = "5.0"
 end
