@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "YDLocationModule"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "YDLocationModule."
 
   spec.homepage     = "https://yourdev.com.br"
@@ -10,6 +10,5 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "11.0"
   spec.source           = { :git => "https://github.com/Hennrich-Your-Dev/YDLocation.git", :tag => spec.version }
   spec.source_files     = "YDLocationModule/**/*.swift"
-  # spec.public_header_files = "YDLocationModule/*.h"
   spec.swift_version    = "5.0"
 end

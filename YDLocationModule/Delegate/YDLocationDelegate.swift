@@ -9,7 +9,7 @@
 import Foundation
 import CoreLocation
 
-protocol YDLocationDelegate: AnyObject {
+public protocol YDLocationDelegate: AnyObject {
     func permissionDenied()
     func locationError(_ error: Error)
     func onLocation(_ location: CLLocation)

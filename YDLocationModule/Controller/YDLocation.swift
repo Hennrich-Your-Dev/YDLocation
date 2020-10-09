@@ -14,7 +14,7 @@ public class YDLocation: NSObject {
     // MARK: Properties
     public static let shared = YDLocation()
     
-    var delegate: YDLocationDelegate?
+    public var delegate: YDLocationDelegate?
     
     private var status: CLAuthorizationStatus = {
        return CLLocationManager.authorizationStatus()
@@ -23,6 +23,10 @@ public class YDLocation: NSObject {
     private let locationManager = CLLocationManager()
     
     // MARK: Init
+    public override init() {
+        super.init()
+        locationManager.delegate = self
+    }
     
     // MARK: Actions
     private func requestAuthorization() {
@@ -68,6 +72,7 @@ extension YDLocation: CLLocationManagerDelegate {
         } else if status == .denied {
             delegate?.permissionDenied()
         }
+        
     }
 
     public func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
