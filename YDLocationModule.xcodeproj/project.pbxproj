@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		53C49A59E8F6B8C3E59A5312 /* Pods_YDLocationModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2B8FA2944EDE795E63E6FC /* Pods_YDLocationModule.framework */; };
+		C113001E25598447004E6C82 /* YDLocationModule.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C113001D25598447004E6C82 /* YDLocationModule.podspec */; };
 		C15E89F4250FF5F0000C3250 /* YDLocationModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C15E89F2250FF5F0000C3250 /* YDLocationModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C15E89FD250FF61E000C3250 /* YDLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E89FC250FF61E000C3250 /* YDLocationDelegate.swift */; };
 		C15E89FF250FF634000C3250 /* YDLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E89FE250FF634000C3250 /* YDLocation.swift */; };
@@ -17,6 +18,7 @@
 		4C2B8FA2944EDE795E63E6FC /* Pods_YDLocationModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDLocationModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5420FDB5BFA0AF635140109F /* Pods-YDLocationModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDLocationModule.debug.xcconfig"; path = "Target Support Files/Pods-YDLocationModule/Pods-YDLocationModule.debug.xcconfig"; sourceTree = "<group>"; };
 		BA5D6AB022EDF9BC7B13B4D2 /* Pods-YDLocationModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDLocationModule.release.xcconfig"; path = "Target Support Files/Pods-YDLocationModule/Pods-YDLocationModule.release.xcconfig"; sourceTree = "<group>"; };
+		C113001D25598447004E6C82 /* YDLocationModule.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YDLocationModule.podspec; sourceTree = "<group>"; };
 		C15E89EF250FF5F0000C3250 /* YDLocationModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDLocationModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15E89F2250FF5F0000C3250 /* YDLocationModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLocationModule.h; sourceTree = "<group>"; };
 		C15E89F3250FF5F0000C3250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				C15E89F0250FF5F0000C3250 /* Products */,
 				8D39909B2DC678787548669C /* Pods */,
 				90FF702360AA3AD7DC21ECA0 /* Frameworks */,
+				C113001D25598447004E6C82 /* YDLocationModule.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C113001E25598447004E6C82 /* YDLocationModule.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
